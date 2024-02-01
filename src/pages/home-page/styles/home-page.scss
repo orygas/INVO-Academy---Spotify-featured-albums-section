@@ -1,0 +1,15 @@
+/// Homepage Styles File
+/// Here we import all the Styles files we need for our Homepage.
+/// 
+///
+/// 
+
+@import url(featured-albums.scss);
+@import url(discover-premium.scss);
+
+#home-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

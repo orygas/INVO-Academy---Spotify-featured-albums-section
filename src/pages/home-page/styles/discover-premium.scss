@@ -1,0 +1,134 @@
+.discover-premium {
+    max-width: 1136px;
+    width: 100%;
+    border: 1px solid #343434;
+    border-radius: 32px;
+    padding: 24px;
+    display: flex;
+    position: relative;
+
+    .discover-premium_banner {
+        height: 100%;
+        width: 100%;
+        border-radius: 24px;
+        background: linear-gradient(128.44deg, #65d46e 0.77%, #0b280d 100%);
+        padding: 40px 32px;
+        display: flex;
+        position: relative;
+        overflow: hidden;
+        align-items: center;
+
+        .discover-premium_banner-img {
+            position: absolute;
+            right: -255px;
+            z-index: 0;
+        }
+
+        .discover-premium_banner-img_gradient {
+            position: absolute;
+            background: linear-gradient(to left, #0b280d 0%, rgba(11, 40, 13, 0) 100%);
+            width: 632px;
+            height: 150px;
+            top: 0;
+            right: 0;
+            z-index: 1;
+        }
+
+        .discover-premium_banner-title {
+            font-weight: bold;
+            line-height: 1;
+            font-size: 24px;
+            height: 48px;
+            width: 303px;
+            z-index: 2;
+        }
+
+        .discover-premium_banner-button {
+            z-index: 2;
+            width: 165px;
+            height: 48px;
+            background-color: #fff;
+            border-radius: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: black;
+            font-weight: bold;
+            line-height: 1;
+            gap: 7px;
+            padding: 16px 24px;
+            letter-spacing: -0.01em;
+            cursor: pointer;
+            right: 32px;
+            position: absolute;
+
+            &:hover {
+                background-color: #F0F0F0;
+            }
+
+            &:active {
+                background-color: #D1D1D1;
+            }
+
+            img {
+                height: 12px;
+                width: 12px;
+                border-radius: 0;
+            }
+
+            .discover-premium_banner-img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+
+    @media (max-width: 834px) {
+        max-width: 770px;
+
+        .discover-premium_banner-img {
+            width: auto;
+        }
+    }
+
+    @media (max-width: 375px) {
+        max-width: 343px;
+        height: 232px;
+        padding: 16px;
+        border-radius: 24px;
+
+        .discover-premium_banner {
+            padding: 40px 16px;
+            flex-direction: column;
+            align-items: flex-start;
+            background: linear-gradient(128.44deg, #65d46e 0.77%, #0b280d 100%);
+            border-radius: 16px;
+
+            .discover-premium_banner-title {
+                max-width: 253px;
+            }
+
+            .discover-premium_banner-button {
+                left: 16px;
+                bottom: 40px;
+            }
+
+            .discover-premium_banner-img_gradient {
+                height: 343px;
+                width: 146px;
+                left: 90px;
+                bottom: -100px;
+                top: unset;
+                background: linear-gradient(to left, #0b280d 0%, rgba(11,40,13,0) 100%);;
+                transform: rotate(90deg);
+            }
+            
+            .discover-premium_banner-img {
+                content: url(assets/images/banner2.png);
+                right: 0;
+                bottom: 0;
+                height: auto;
+            }
+        }
+    }
+}
