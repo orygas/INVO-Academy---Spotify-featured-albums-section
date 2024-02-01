@@ -22,8 +22,8 @@ Demo aplikacji dostępne [tutaj](https://clinquant-mermaid-df76ef.netlify.app/).
 
 ## Autor
 
--Oskar Rygasiewicz
--INVO Academy (starter code)
+- Oskar Rygasiewicz
+- INVO Academy (starter code)
 
 
 
