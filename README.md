@@ -8,7 +8,7 @@ Odwzorowanie designu z [pliku Figmy](https://www.figma.com/file/9qvdrRxMnpQto355
 
 ## Demo
 
-Demo aplikacji dostępne [tutaj]().
+Demo aplikacji dostępne [tutaj](https://clinquant-mermaid-df76ef.netlify.app/).
 
 ## Funkcjonalności
 
@@ -22,8 +22,8 @@ Demo aplikacji dostępne [tutaj]().
 
 ## Autor
 
-Oskar Rygasiewicz
-INVO Academy (starter code)
+-Oskar Rygasiewicz
+-INVO Academy (starter code)
 
 
 
